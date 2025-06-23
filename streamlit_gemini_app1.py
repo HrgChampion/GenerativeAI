@@ -19,7 +19,7 @@ def init_llm():
         model="gemini-1.5-flash-latest",
         temperature=0.2,
         max_output_tokens=512,
-        max_retries=0,
+        max_retries=2,
     )
 
 llm = init_llm()
