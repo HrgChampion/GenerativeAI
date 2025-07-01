@@ -11,7 +11,7 @@ graph_builder = StateGraph(State)
 
 
 # Step 3 : Initialize the LLM
-llm = OllamaLLM(model="llama3")
+llm = OllamaLLM(model="llama3.1")
 
 # Step 4 : Define Chatbot function
 def chatbot(state:State):
